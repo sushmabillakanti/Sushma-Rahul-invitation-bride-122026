@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-royal: 'Cinzel', serif;
+    --font-script: 'Great Vibes', cursive;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+.font-royal {
+  font-family: var(--font-royal);
+}
+
+.font-serif-display {
+  font-family: var(--font-serif);
+}
+
+.font-script {
+  font-family: var(--font-script);
+}
+
+.font-body {
+  font-family: var(--font-sans);
+}
+
+/* Elegant traditional gold metallic gradient */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #AA771C 50%, #D4AF37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #AA771C 50%, #B8860B 100%);
+}
+
+.bg-crimson-gradient {
+  background: linear-gradient(135deg, #8B1E28 0%, #6E121B 50%, #4D0910 100%);
+}
+
+.gold-border {
+  border: 1px solid rgba(212, 175, 55, 0.35);
+}
+
+.gold-border-glow {
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+}
+
+/* Traditional rangoli / mandala background subtle pattern */
+.bg-mandala-pattern {
+  background-color: #FFFDF9;
+  background-image: radial-gradient(rgba(212, 175, 55, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-royal-pattern {
+  background-color: #5A111A;
+  background-image: radial-gradient(rgba(212, 175, 55, 0.15) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
