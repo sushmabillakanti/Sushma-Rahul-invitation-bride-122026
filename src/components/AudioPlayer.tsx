@@ -82,13 +82,13 @@ export const AudioPlayer: React.FC = () => {
     <>
       <audio
         ref={audioRef}
-        src="/wedding-background-music.mp3"
+        src="./wedding-background-music.mp3"
         loop
         preload="auto"
         playsInline
       >
-        <source src="/wedding-background-music.mp3" type="audio/mpeg" />
-        <source src="/assets/aistudio/AUD-20261028-WA0010_515583a7.mp3" type="audio/mpeg" />
+        <source src="./wedding-background-music.mp3" type="audio/mpeg" />
+        <source src="./assets/aistudio/AUD-20261028-WA0010_515583a7.mp3" type="audio/mpeg" />
       </audio>
 
       {/* Floating elegant sound controller */}

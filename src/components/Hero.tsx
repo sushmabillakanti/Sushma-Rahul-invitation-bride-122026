@@ -160,7 +160,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenRsvp, onOpenCard }) => {
             <div className="relative p-2 rounded-t-[140px] rounded-b-2xl bg-gradient-to-b from-[#D4AF37] via-[#AA771C] to-[#8B1E28] shadow-2xl max-w-sm sm:max-w-md w-full">
               <div className="relative overflow-hidden rounded-t-[136px] rounded-b-xl aspect-[4/5] bg-stone-100">
                 <img
-                  src="/assets/aistudio/012A4283_a1e50937.JPG"
+                  src="./assets/aistudio/012A4283_a1e50937.JPG"
                   alt="Sushma and Sai Rahul"
                   className="w-full h-full object-cover object-top transition-transform duration-700 hover:scale-105"
                 />

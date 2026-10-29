@@ -44,7 +44,7 @@ export const MuhurthamSection: React.FC = () => {
         {/* Sacred Mandap Banner with generated visual */}
         <div className="mb-14 rounded-2xl overflow-hidden border border-[#D4AF37]/40 shadow-2xl relative aspect-[16/8] sm:aspect-[16/7] bg-[#2E0B12]">
           <img
-            src="/sacred_mandap_decor.jpg"
+            src="./sacred_mandap_decor.jpg"
             alt="Sacred Wedding Mandap and Havan Fire"
             className="w-full h-full object-cover object-center"
           />
